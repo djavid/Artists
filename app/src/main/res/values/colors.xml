@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#967ad6</color>
+    <color name="colorPrimaryDark">#7f67b6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorListArtistName">#000000</color>
+    <color name="colorListArtistDescription">#999999</color>
+    <color name="colorEmptyList">#999999</color>
+    <color name="colorListDivider">#f2f2f2</color>
+    <color name="colorBiography">#000000</color>
+</resources>

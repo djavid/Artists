@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Artists</string>
+    <string name="empty_list">Пожалуйста подождите&#8230;</string>
+    <string name="main_list_cover">Cover</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="biography">Биография</string>
+    <string name="action_search">Поиск</string>
+    <string name="empty">Подождите&#8230;</string>
+</resources>

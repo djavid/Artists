@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/cover_small"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/main_list_cover"
+        android:scaleType="fitXY"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@id/cover_small"
+        android:textStyle="bold"
+        android:textColor="@color/colorListArtistName" />
+
+    <TextView
+        android:id="@+id/genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/name"
+        android:layout_alignStart="@id/name"
+        android:textColor="@color/colorListArtistDescription" />
+
+    <TextView
+        android:id="@+id/albums_tracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/cover_small"
+        android:layout_alignBottom="@id/cover_small"
+        android:textColor="@color/colorListArtistDescription" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/cover_small"
+        android:background="@color/colorListDivider"/>
+
+</RelativeLayout>
